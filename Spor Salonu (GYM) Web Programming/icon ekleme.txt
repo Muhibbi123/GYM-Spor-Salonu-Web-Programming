@@ -1,0 +1,3 @@
+head tagleri arasına 
+<link rel="icon" href="dumbell.ico"type="image/x-icon"/>
+koy

@@ -1,0 +1,10 @@
+SporSalonu veri tabanında
+
+uyeBilgi:
+Id, Ad, Soyad, Mail, Yaş, BolumId, Kullanıcı adı, Şifre, cinsiyet
+
+Bolum:
+Id, BolumAdi
+
+Hocalar:
+Id, isim, soyisim, BolumId

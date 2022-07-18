@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="icon" href="dumbell.ico"type="image/x-icon"/> <!-- sayfanın ikonu -->
+<style>
+    
+body { /*arka plan*/
+    margin:0;
+    background-image: url("Hocalarimiz.jpg");
+}
+   
+ul { /*burası en üstteki butonların arka plan rengi*/
+  list-style-type: none; /*navbar da yazıların yanına herhangi bi şey gelmesin diye */
+  margin: 0;
+  padding: 0;
+  background-color: darkred;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {    /*burası butonlar arası boşluk rengi*/
+  float: left;
+  border-right: 1px solid gray;
+}
+    
+li:last-child { /*butonlar arası boşluklarla ilgili*/
+  border-right: none; /*instagram logo ile facebook arası logoya ayrım koymasın diye*/
+}
+
+li a {  /*butonların içindeki yazıların bilgileri*/
+  display: block; /*yazıların tam ortalanmasını sağlar navbar içinde */
+  color: peachpuff;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none; /*bunu yazmazsak altına çizgi koyuyor */
+}
+
+li a:hover{ /*mouse ile üstüne gelindiğinde oluşacak renk*/
+  background-color: saddlebrown;
+}
+    
+button{
+    padding:5px 15px; 
+    background:lightblue; 
+    border:0; /*kenar boşluğu renkle uysun diye*/
+    border-radius: 5px; 
+    color: maroon;
+}
+    
+.responsive {
+  width: 40%;
+  height: auto;
+}
+    
+</style>
+
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<title>ERTOK Spor Salonu Eğitmenleri</title>
+
+<ul>
+    <li><a href="anaSayfa.html">Ana Sayfa</a></li> 
+    <li><a href="YeniUye.php">Yeni Üyelik Oluşturma</a></li> 
+    <li><a href="uyeGirisi.php">Üye Girişi</a></li>
+    <li style="float: right"><img src = "ERTOK%20SPOR%20SALONU%20LOGOSU.png" width="220" length="130"></li>
+    <li style="float: right"><a href="https://tr-tr.facebook.com/mert.ertok" target="_blank"><img src="facebook%20logo.png" width="15" height="15"></a></li>
+    <li style="float: right"><a href="https://www.instagram.com/mertertok/" target="_blank"><img src="insta%20logo.png" width="15" height="15"></a></li>
+</ul>
+    
+    <br><br><br>
+    <h1 style="text-align: center; font-size: 60px; font-style: oblique; color: coral;">Gelin bu bölümde, spor salonumuzda sizi bekleyen hocalarımızı tanıyalım.
+    
+    <h1 style="text-align: left; font-size: 45px; font-style: oblique; color: darkorange;">1.) Fitness Bölümü Hocamız:</h1>
+    
+    <h1 style="text-align: center; font-size: 40px; font-style:inherit; color: beige;"><img src="LazarAngelov.jpg" class="responsive" width="100" height="100"><br>
+    Ünlü fitness sporcusu <font style="color: cyan">Lazar Angelov</font>, <font style="color: orange">Fitness kolunda sizlere yardımcı olacak, tecrübeli hocamızdır.</font></h1>
+    
+    <h1 style="text-align: left; font-size: 45px; font-style: oblique; color: darkorange;">2.) BodyBuilder Bölümü Hocamız:</h1>
+    
+    <h1 style="text-align: center; font-size: 40px; font-style:inherit; color: beige;"><img src="DwayneJohnson.jpg" class="responsive"><br>
+    Ünlü oyuncu, sporcu <font style="color: cyan">Dwayne Johnson</font>, <font style="color: orange">BodyBuilder Bölümünde sizlere yardımcı olacak, müthiş bir sporcu ve eğitmendir.</font></h1>
+        
+    <h1 style="text-align: left; font-size: 45px; font-style: oblique; color: darkorange;">3.) Jimnastik Bölümü Hocamız:</h1>
+    
+    <h1 style="text-align: center; font-size: 40px; font-style:inherit; color: beige;"><img src="AyseBegumOnbasi.jpg" class="responsive"><br>
+    Milli sporcumuz <font style="color: cyan">Ayşe Begüm Onbaşı</font>, <font style="color: orange">Jimnastik Bölümünde sizler için yol gösterici eğitmenimizdir.</font></h1>
+        
+    <h1 style="text-align: left; font-size: 45px; font-style: oblique; color: darkorange;">4.) Karate Bölümü Hocamız:</h1>
+    
+    <h1 style="text-align: center; font-size: 40px; font-style:inherit; color: beige;"><img src="JackieChan.jpg" class="responsive"><br>
+    Ünlü oyuncu ve sporsever <font style="color: cyan">Jackie Chan</font>, <font style="color: orange">Karate Bölümünde, engin tecrübeleriyle, sizlere örnek olacaktır.</font></h1>
+
+    <h1 style="text-align: left; font-size: 45px; font-style: oblique; color: darkorange;">5.) Taekwondo Bölümü Hocamız:</h1>
+    
+    <h1 style="text-align: center; font-size: 40px; font-style:inherit; color: beige;"><img src="IremYamann.jpg" class="responsive"><br>
+    Milli sporcumuz <font style="color: cyan">İrem Yaman</font>, <font style="color: orange">Taekwondo Bölümünde, eşsiz zaferlerinin getirdiği tecrübeyle, sizlere ışık olacaktır.</font></h1><br><br><br>
+        
+    <h1 style="text-align: center; font-size: 50px; font-style:italic; color:darksalmon;">Amacımız sizleri de, aşağıda fotoğraflardaki sporcular ve hocamız Dwayne Johnson gibi <font style="color: orange">"güçlü"</font> ve <font style="color: red">"sağlıklı"</font> yapmaktır. 🙂<br>
+    
+    <script>
+        function hocaGif(abc) {
+            var pic;
+            if (abc == 0) {
+                pic = "https://c.tenor.com/ntpiDvI5tNkAAAAM/tony2guns-gainz.gif"
+            } else if (abc == 1) {
+                pic = "https://i.pinimg.com/originals/b6/ea/c9/b6eac9b67e5a314d9c097061b4545fb5.gif"
+            }
+            else{
+                pic = "https://i.chzbgr.com/full/8113004544/hBBD2B9E1/gif-of-guy-lifting-up-1155-lbs"
+            }
+            document.getElementById('myImage').src = pic;
+        }
+    </script>
+
+    <img id="myImage" src="https://i.pinimg.com/originals/b6/ea/c9/b6eac9b67e5a314d9c097061b4545fb5.gif" width="300" height="300" class="responsive">
+
+    <p>
+        <button type="button" onclick="hocaGif(1)">Tıklayın!!</button>
+        <button type="button" onclick="hocaGif(0)">Bana da Tıklayın!!</button>
+        <button type="button" onclick="hocaGif(2)">Bana Tıklamazsanız Olmaz :)</button>
+    </p>
+    </h1>
+        
+    </h1>
+    <h3 style= "text-align: center; font-size: 15px; color: white;"><img src = "ERTOK%20SPOR%20SALONU%20LOGOSU.png" width="130" length="70">ERTOK SPOR SALONU®. TÜM HAKLARI SAKLIDIR.</h3>
+</body>
+</html>
